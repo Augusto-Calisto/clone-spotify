@@ -1,10 +1,16 @@
 body {
     font-family: Helvetica, Arial, sans-serif;
+    height: 100%;
+    margin: 0px; /* Ocupa os espaços em branco */
 }
 
 .background-dark {
     background-color: black;
     padding: 20px;
+}
+
+.negrito {
+    font-weight: bold;
 }
 
 .align-center {
