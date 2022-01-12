@@ -1,3 +1,27 @@
+#sobre {
+    width: 100%;
+}
+
+.grid-container {
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+    padding: 10px;
+    text-align: center;
+}
+
+.grid-item a {
+    text-decoration: none;
+    color: white;
+}
+
+.grid-item a:hover {
+    color: #1ed760;
+}
+
 .titulo {
     font-size: 12px;
     color: rgb(164, 156, 144);
@@ -8,29 +32,6 @@
 .sub-titulo {
     font-size: 12px;
     color: rgb(164, 156, 144);
-}
-
-#informacoes-da-empresa {
-    text-align: left;
-}
-
-#informacoes-da-empresa ul {
-    list-style-type: none;
-    overflow: hidden;
-}
-
-#informacoes-da-empresa li {
-    margin-top: 25px;
-    text-align: left;
-}
-
-#informacoes-da-empresa ul li a {
-    text-decoration: none;
-    color: white;
-}
-
-#informacoes-da-empresa ul li a:hover {
-    color: #1ed760;
 }
 
 #politicas-da-empresa a {

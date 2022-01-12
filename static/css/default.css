@@ -23,15 +23,27 @@ body {
     display: flex;
 }
 
-.margin-top {
+.margin-top-20 {
     margin-top: 20px;
 }
 
-.margin-bootom {
+.margin-bootom-20 {
+    margin-bottom: 35px;
+}
+
+.margin-bootom-150 {
     margin-bottom: 150px;
 }
 
-.margin-right {
+.margin-left-35 {
+    margin-left: 35px;
+}
+
+.margin-left-45 {
+    margin-left: 45px;
+}
+
+.margin-right-50 {
     margin-right: 50px;
 }
 
