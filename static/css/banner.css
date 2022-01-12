@@ -1,0 +1,34 @@
+#banner {
+    background-image: url(https://www-growth.scdn.co/static/home/bursts-tablet.svg);
+    background-position: right 40% center;
+}
+
+.background-blue {
+    background-color: rgb(33, 52, 137);
+}
+
+.slogan {
+    font-size: 125px;
+    font-weight: bold;
+}
+
+.color-green {
+    color: #1ed760;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.btn-baixar {
+    background-color: #1ed760;
+    border-color: #1ed760;
+    border-radius: 50px;
+    color: rgb(33, 52, 137);
+    font-weight: bold;
+    padding: 10px;
+}
+
+.btn-baixar:hover {
+    transform: scale(1.05);
+}

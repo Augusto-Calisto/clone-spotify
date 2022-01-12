@@ -1,0 +1,33 @@
+html {
+    height: 100%
+    margin: 0
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.background-dark {
+    background-color: black;
+    padding: 20px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.margin-top {
+    margin-top: 20px;
+}
+
+.margin-bootom {
+    margin-bottom: 150px;
+}
+
+.margin-right {
+    margin-right: 50px;
+}
+
+.padding-top-260 {
+    padding-top: 260px;
+}

@@ -1,19 +1,28 @@
-.background-dark {
-    background-color: black;
-    padding: 20px;
+#menu {
+    list-style-type: none;
+    overflow: hidden;
 }
 
-.background-dark img {
-    margin-left: 45px;
-}
-
-.background-dark a {
-    text-decoration: none;
+#menu a {
+    float: left;
     color: white;
-    margin-left: 25px;
+    text-align: center;
+    text-decoration: none;
     font-weight: bold;
 }
 
-.background-dark a:hover {
+#menu a img {
+    margin-left: 45px;
+}
+
+#menu a:hover {
     color: #1ed760;
+}
+
+.nav-right {
+     float: right;
+}
+
+.nav-right a {
+    padding: 10px;
 }
