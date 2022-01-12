@@ -12,18 +12,20 @@
         <link rel="icon" href="./static/image/icon.png"/>
 
         <!-- Css -->
-        <link href="./static/css/navbar.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="./static/css/navbar.css" />
 
-        <link href="./static/css/default.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="./static/css/default.css" />
 
-        <link href="./static/css/banner.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="./static/css/banner.css" />
+
+        <link rel="stylesheet" href="./static/css/footer.css" />
     </head>
 
     <body>
-        <div class="">
+        <div>
             <nav id="menu" class="background-dark">
                 <a href="#">
-                    <img src="./static/image/banner.png" width="130px" height="40px" />
+                    <img src="./static/image/banner.png" class="logo-link" width="130px" height="40px" />
                 </a>
 
                 <div class="nav-right margin-right">
@@ -60,9 +62,43 @@
             </div>
 
             <footer class="background-dark">
-                <a href="#">
-                    <img src="./static/image/banner.png" width="130px" height="40px" />
-                </a>
+                <div id="sobre" class="padding-top-50">
+                    <div class="align-left">
+                        <a href="#">
+                            <img src="./static/image/banner.png" class="logo-link" width="130px" height="40px" />
+                        </a>
+                    </div>
+
+                    <div id="informacoes-da-empresa" class="align-right">
+                        <p class="titulo"> Empresa </p>
+
+                        <ul>
+                            <li>
+                                <a href="#"> Sobre </a>
+                            </li>
+
+                            <li>
+                                <a href="#"> Empregos </a>
+                            </li>
+
+                            <li>
+                                <a href="#"> For the Record </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div id="politicas-da-empresa">
+                    <a href="#" class="sub-titulo"> Legal </a>
+
+                    <a href="#" class="sub-titulo"> Centro de Privacidade </a>
+
+                    <a href="#" class="sub-titulo"> Política de privacidade </a>
+
+                    <a href="#" class="sub-titulo"> Cookies </a>
+
+                    <a href="#" class="sub-titulo"> Sobre anúncios </a>
+                </div>
             </footer>
         </div>
     </body>

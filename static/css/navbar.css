@@ -11,10 +11,6 @@
     font-weight: bold;
 }
 
-#menu a img {
-    margin-left: 45px;
-}
-
 #menu a:hover {
     color: #1ed760;
 }
