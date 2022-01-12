@@ -1,0 +1,19 @@
+.background-dark {
+    background-color: black;
+    padding: 20px;
+}
+
+.background-dark img {
+    margin-left: 45px;
+}
+
+.background-dark a {
+    text-decoration: none;
+    color: white;
+    margin-left: 25px;
+    font-weight: bold;
+}
+
+.background-dark a:hover {
+    color: #1ed760;
+}
